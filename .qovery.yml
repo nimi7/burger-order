@@ -1,0 +1,15 @@
+---
+application:
+  name: "burger-order"
+  project: "burgers"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "FoodStore"
+  version: "4.4"
+routers:
+- name: "main-burger-order"
+  routes:
+  - application_name: "burger-order"
+    paths:
+    - "/*"
