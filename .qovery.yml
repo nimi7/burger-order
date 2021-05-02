@@ -1,7 +1,7 @@
 ---
 application:
   name: "burger-order"
-  project: "burgers"
+  project: "nimrod"
   organization: "QoveryCommunity"
 databases:
 - type: "MONGODB"
