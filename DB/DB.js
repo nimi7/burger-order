@@ -3,7 +3,7 @@ require("dotenv").config();
 
 //! connect to db
 mongoose
-  .connect(process.env.URI || mongodb://127.0.0.1:27017/FoodStore, {
+  .connect('mongodb+srv://Nimrod-Admin:nimi0528266913@cluster0.yzitu.mongodb.net/FoodStore', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
